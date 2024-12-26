@@ -1,0 +1,7 @@
+package com.example.gutendexapi.repository;
+
+import com.example.gutendexapi.model.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BookRepository extends JpaRepository<Book, Long> {
+}
